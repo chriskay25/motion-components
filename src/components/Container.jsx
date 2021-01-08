@@ -1,10 +1,11 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const Container = () => {
     return (
-        <div className='container'>
+        <motion.div className='container'>
             Container
-        </div>
+        </motion.div>
     )
 }
 
